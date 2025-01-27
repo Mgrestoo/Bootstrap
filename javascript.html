@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            font-family: Aerial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: #997404;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+</head>
+<body>
+<h1>Welcome to javascript basics</h1>
+<p>Click the button below to see the magic happens</p>
+<button id="myButton">Click me!</button>
+<i class="bi bi-facebook"></i>
+<i class="bi bi-chat"></i>
+<script>
+    const button=document.getElementById('myButton')
+    button.addEventListener('click',function (){
+        alert('Hello, Mgresto! Welcome to Javascript basics')})
+</script>
+</body>
+</html>
